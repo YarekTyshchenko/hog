@@ -9,8 +9,9 @@ and it will be live on the home page.
 
 TODO:
 - Links to individual posts
+- Syntax highlighting
+- Categories / Tags
 - Pull Author / Timestamp data
 - Template engine
-- ???
 
 Oh, it should be live at http://yarekt.co.uk
