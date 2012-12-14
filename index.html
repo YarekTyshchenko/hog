@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Hog - GitHub Javascript Blog</title>
+    <link rel="stylesheet" type="text/css" href="hog/hog.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://raw.github.com/coreyti/showdown/master/compressed/showdown.js"></script>
+    <script type="text/javascript" src="hog/ghfs.js"></script>
+    <script type="text/javascript" src="hog/hog.js"></script>
+
+    <script type="text/javascript">
+        $(function(){
+            var hog = Hog($('#content'));
+            hog.homePage();
+        });
+    </script>
+</head>
+<body>
+    <div id='content'></div>
+</body>
+</html>
