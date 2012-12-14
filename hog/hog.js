@@ -5,9 +5,9 @@ var Hog = function(contentElement) {
 
     return {
         homePage: function() {
-            _ghfs.findAll('posts', function(post){
+            _ghfs.findAll('post', function(post){
                 $.ajax({
-                    url: 'data/' + post.path,
+                    url: post.path,
                     success: function(data) {
                         _content.append(_showdown.makeHtml(data));
                     }

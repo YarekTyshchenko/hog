@@ -1,7 +1,7 @@
 // Github filesystem (of sorts)
 
 GHFS = (function() {
-    var _gh_path = 'https://api.github.com/repos/yarekt/yarekt.github.com/contents/';
+    var _gh_path = 'https://api.github.com/repos/yarekt/yarekt.github.com/contents/data/';
     var _gh = (function() {
         return {
             list: function(path, callback) {
